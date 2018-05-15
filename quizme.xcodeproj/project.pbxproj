@@ -12,6 +12,8 @@
 		FA202A2420A5117D00A501FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA202A2220A5117D00A501FC /* Main.storyboard */; };
 		FA202A2620A5118B00A501FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA202A2520A5118B00A501FC /* Assets.xcassets */; };
 		FA202A2920A5118B00A501FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA202A2720A5118B00A501FC /* LaunchScreen.storyboard */; };
+		FA202A3220A5176700A501FC /* MusicQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA202A3120A5176700A501FC /* MusicQuestion.swift */; };
+		FAA18D5D20A648BE00B619F6 /* MusicQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA18D5C20A648BE00B619F6 /* MusicQuestionBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FA202A2520A5118B00A501FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA202A2820A5118B00A501FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA202A2A20A5118B00A501FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA202A3120A5176700A501FC /* MusicQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicQuestion.swift; sourceTree = "<group>"; };
+		FAA18D5C20A648BE00B619F6 /* MusicQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicQuestionBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		FA202A1220A5117D00A501FC = {
 			isa = PBXGroup;
 			children = (
+				FA202A3020A516EF00A501FC /* Model */,
 				FA202A1D20A5117D00A501FC /* quizme */,
 				FA202A1C20A5117D00A501FC /* Products */,
 			);
@@ -62,6 +67,15 @@
 				FA202A2A20A5118B00A501FC /* Info.plist */,
 			);
 			path = quizme;
+			sourceTree = "<group>";
+		};
+		FA202A3020A516EF00A501FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA202A3120A5176700A501FC /* MusicQuestion.swift */,
+				FAA18D5C20A648BE00B619F6 /* MusicQuestionBank.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA202A3220A5176700A501FC /* MusicQuestion.swift in Sources */,
 				FA202A2120A5117D00A501FC /* ViewController.swift in Sources */,
 				FA202A1F20A5117D00A501FC /* AppDelegate.swift in Sources */,
+				FAA18D5D20A648BE00B619F6 /* MusicQuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
